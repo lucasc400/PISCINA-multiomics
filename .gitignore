@@ -1,0 +1,24 @@
+# OS and editor files
+.DS_Store
+.Rhistory
+.RData
+.Rproj.user/
+
+# Data and results must never be committed
+Data/
+Results/
+*.rds
+*.RDS
+*.RData
+*.rda
+*.csv
+*.xlsx
+*.dta
+*.pdf
+*.png
+*.jpeg
+
+# HPC job logs (PBS)
+*.o[0-9]*
+*.e[0-9]*
+Rplots.pdf
